@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("build"){
             steps {
-                "echo building stage "
+                echo "building stage "
                 script{
                     def test= 2+3 > 3 ? 'cool': 'notcool'
                 }
@@ -11,12 +11,12 @@ pipeline{
         }
         stage("test"){
             steps {
-                "echo testing stage "
+                 echo "testing stage "
                 }
         }
         stage("deploy"){
             steps {
-                "echo deoloying stage "
+                 echo "deoloying stage "
                 }
         }
     }
