@@ -6,7 +6,7 @@ pipeline{
                 echo "building stage "
                 script{
                     def test= 2+3 > 3 ? 'cool': 'notcool'
-                    echo "testing $test for webhooks"
+                    echo "testing $test for webhooks testing"
                 }
                 }
         }
