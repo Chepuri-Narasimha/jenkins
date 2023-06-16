@@ -7,7 +7,7 @@ pipeline{
                 script{
                     def test= 2+3 > 3 ? 'cool': 'notcool'
                     echo test
-                    echo "testing Main branch"
+                    echo "testing Main branch2"
                 }
                 }
         }
